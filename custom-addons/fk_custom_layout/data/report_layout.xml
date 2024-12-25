@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <record id="report_layout_fokal" model="report.layout">
+            <field name="name">Fokal</field>
+            <field name="sequence">9</field>
+            <field name="view_id" ref="fk_custom_layout.external_layout_fokal"/>
+        </record>
+    </data>
+</odoo>
